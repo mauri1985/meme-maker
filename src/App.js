@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <ImageContainer></ImageContainer>
+        <ImageContainer index='1' nombre='Nombre'></ImageContainer>
       </header>
     </div>
   );
