@@ -1,10 +1,39 @@
-.imageContainer{
+.small{
     border: yellowgreen solid 1px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 5px;
+    width: 150px;
 }
 
-h2{
+.medium{
+    border: yellowgreen solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.big{
+    border: yellowgreen solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 350px;
+}
+
+
+h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ImageSRC{
+    padding: 10px;
+    width: 90%;
 }
