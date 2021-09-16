@@ -5,6 +5,9 @@ class Body extends React.Component{
     constructor(props){
         super(props);
     }
+    componentDidMount(){
+        fetch('')
+    }
     render(){
         return(
             <div className='Body'>

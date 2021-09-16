@@ -1,6 +1,15 @@
 .Header{
-    background: rgb(0, 149, 241);
-    height: 80px;
-    padding: 15px;
+    background: rgb(0, 157, 255);
+    border-bottom: 1px solid rgb(0, 136, 221);
+    height: 45px;
+    padding: 5px;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* this is optional and should be different for every project */
+}
+
+h2{
+    margin-top: 5px;
+    padding: 0px;
 }

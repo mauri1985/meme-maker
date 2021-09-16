@@ -1,0 +1,10 @@
+.MemeContainer{
+    background:white;        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
