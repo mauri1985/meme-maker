@@ -1,29 +1,37 @@
-.Meme{
+/* .Meme{
     background:whitesmoke;    
     border-radius: 10px;
     border: 1px solid rgb(202, 202, 202);   
     flex-shrink: 1;
-    flex-basis: 20%;
-    margin: 7px;
-    box-shadow: 2px 2px 5px #999;
-}
+    flex-basis: 20%;   
+    
+    width: 450px;
+} */
 
 .MemeDesc{
-    margin: 5px;
+    margin: 0px;
+    position: sticky;
+    top: 0%;
+}
+
+.card{
+    box-shadow: 2px 2px 5px #999;
+    width: 18rem;
+    margin: 10px;
 }
 
 img{
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #999;
-    max-width: 150px;
-    max-height: 150px;
-}
-
-h3{
-    margin: 20px;
+    border-radius: 5px; 
+    max-height: 200px; 
+    max-width: 99%; 
+    margin: 2px;
 }
 
 p{
-    font-size: 14px;
     margin: 2px;
+}
+
+#btnSeleccionar{
+    position: sticky;
+    top: 100%;
 }

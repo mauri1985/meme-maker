@@ -1,5 +1,6 @@
 import React from 'react';
 import './Meme.css'
+import Button from '../Button/Button';
 
 class Meme extends React.Component{
     constructor(props){
@@ -8,14 +9,21 @@ class Meme extends React.Component{
 
     render(){
         return(
-            <section className="Meme">
-                <h3>{this.props.name}</h3>
-                <img src={this.props.url} alt='ReactJS'/>
-                <p><a href={this.props.url} target="_blank">Abrir imagen</a></p>
-                <div className="MemeDesc">
-                    <p>Widht: {this.props.width} | Height: {this.props.height}</p>
+            <div className="card ">
+                <div class="card-header">
+                    {this.props.name}
                 </div>
-            </section>
+                <img className="card-img-top" src={this.props.url} alt="Meme Maker"/>
+                <div className="card-body">                                    
+                    <div className="MemeDesc">
+                        <p><a href={this.props.url} target="_blank">Abrir imagen</a></p>
+                        <p>Widht: {this.props.width} | Height: {this.props.height}</p>                        
+                    </div>
+                    <div id="btnSeleccionar">
+                        <Button btnText='Seleccionar'/>
+                    </div>
+                </div>
+            </div>            
         )
     }   
 }

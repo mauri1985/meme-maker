@@ -8,7 +8,7 @@ class Header extends React.Component{
     render(){
         return(
             <nav className='Header'>
-                <h2>Meme Generator!</h2>
+                <h3>Meme Generator!</h3>
             </nav>
         );
     }
