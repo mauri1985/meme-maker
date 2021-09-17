@@ -3,8 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 90%;
+    /* padding-top: 2%; */
+    padding: 5%;
+    padding-top: 4%;
+}
+
+#memesPages{
+    position: sticky;
+    top: 0%;
 }

@@ -36,8 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-#memeContainer{
-  display: flex;
-  justify-content: center;
-}

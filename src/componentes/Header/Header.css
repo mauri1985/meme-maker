@@ -1,11 +1,4 @@
-.Header{
-    background: rgb(0, 157, 255);
-    border-bottom: 1px solid rgb(0, 136, 221);
-    height: 45px;
-    padding: 5px;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 100; /* this is optional and should be different for every project */
+.fixed-top{
+    border-bottom: 1px solid rgb(194, 194, 194);
 }
 

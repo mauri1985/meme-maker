@@ -1,6 +1,7 @@
 import React from 'react';
 import './MemeContainer.css';
 import Meme from '../Meme/Meme';
+import { getMemesFromInternet } from '../../services/memes';
 
 class MemeContainer extends React.Component{
     constructor(props){
@@ -12,15 +13,14 @@ class MemeContainer extends React.Component{
         }
     }
 
-    componentDidMount(){
-        fetch('https://api.imgflip.com/get_memes')
-            .then( response => response.json())
-            .then( memesJson => this.setState({ memes: memesJson.data.memes, loading: false }))
+    async componentDidMount(){
+        const responseJSON = await getMemesFromInternet();
+        this.setState({ memes: responseJSON.data.memes, loading: false });
     }
 
     render(){
         if(this.state.loading)
-            return 'Cargando...'
+            return <h5>Cargando...</h5>
             
         return(
             <div className="MemeContainer">

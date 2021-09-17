@@ -1,34 +1,22 @@
-/* .Meme{
-    background:whitesmoke;    
-    border-radius: 10px;
-    border: 1px solid rgb(202, 202, 202);   
-    flex-shrink: 1;
-    flex-basis: 20%;   
-    
-    width: 450px;
-} */
-
 .MemeDesc{
-    margin: 0px;
     position: sticky;
-    top: 0%;
+    top: 100%;
 }
 
 .card{
     box-shadow: 2px 2px 5px #999;
-    width: 18rem;
+    width: 15rem;
     margin: 10px;
 }
 
 img{
-    border-radius: 5px; 
     max-height: 200px; 
-    max-width: 99%; 
-    margin: 2px;
+    max-width: 100%; 
 }
 
 p{
-    margin: 2px;
+    margin: 1px;
+    font-size: 14px;
 }
 
 #btnSeleccionar{

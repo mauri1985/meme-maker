@@ -16,11 +16,9 @@ class Meme extends React.Component{
                 <img className="card-img-top" src={this.props.url} alt="Meme Maker"/>
                 <div className="card-body">                                    
                     <div className="MemeDesc">
-                        <p><a href={this.props.url} target="_blank">Abrir imagen</a></p>
-                        <p>Widht: {this.props.width} | Height: {this.props.height}</p>                        
-                    </div>
-                    <div id="btnSeleccionar">
-                        <Button btnText='Seleccionar'/>
+                        <p><a href={this.props.url} target="_blank">Ampliar imagen</a></p>
+                        <p>Widht: {this.props.width} | Height: {this.props.height}</p>  
+                        <Button btnText='Seleccionar'/>                      
                     </div>
                 </div>
             </div>            
